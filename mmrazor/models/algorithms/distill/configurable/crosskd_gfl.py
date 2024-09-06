@@ -9,7 +9,7 @@ from torch import Tensor
 from mmdet.registry import MODELS
 from mmdet.structures import SampleList
 from mmdet.utils import InstanceList, OptInstanceList, reduce_mean
-#test
+
 from ..utils import multi_apply, unpack_gt_instances
 from .crosskd_single_stage import CrossKDSingleStageDetector
 
