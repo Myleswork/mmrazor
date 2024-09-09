@@ -11,7 +11,7 @@ from mmdet.structures import SampleList
 from mmdet.utils import InstanceList, OptInstanceList, reduce_mean
 
 from ..utils import multi_apply, unpack_gt_instances
-from .crosskd_single_stage import CrossKDSingleStageDetector
+from mmdet.models.detectors.crosskd_single_stage import CrossKDSingleStageDetector
 
 
 @MODELS.register_module()

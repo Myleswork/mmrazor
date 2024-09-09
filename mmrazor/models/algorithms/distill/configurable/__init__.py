@@ -6,8 +6,8 @@ from .overhaul_feature_distillation import OverhaulFeatureDistillation
 from .self_distill import SelfDistill
 from .single_teacher_distill import SingleTeacherDistill
 from .base import BaseDetector
-from .crosskd_single_stage import CrossKDSingleStageDetector
-from .crosskd_gfl import CrossKDGFL
+#from mmdet.models.detectors.crosskd_single_stage import CrossKDSingleStageDetector
+from mmdet.models.detectors.crosskd_gfl import CrossKDGFL
 
 
 
